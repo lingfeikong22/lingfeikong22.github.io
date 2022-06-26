@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+ 
+ :root {
+  --main-accent-color: #185631;
+  --main-accent-color-hover: rgb(13, 40, 13);
+}
+
+ body{
+  font-family:'Open Sans',serif;
+  padding-top:54px;
+  color:#868e96
+}
+@media (min-width:992px){
+  body{
+      padding-top:0;
+      padding-left: 12rem
+  }
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight:700;
+  text-transform:uppercase;
+  color:#343a40;
+  letter-spacing: -1px;
+}
+h1 {
+  letter-spacing: -8px;
+}
+
+h3, h4 {
+  margin-top: 4rem;
+}
+
+.subheading{
+  text-transform:uppercase;
+  font-weight:500; 
+  font-size:1.35rem;
+  letter-spacing: -2px;
+}
+
+h1,h2,h3,h4,h5,h6, .subheading, .navbar-brand  {
+  font-family: 'Kalam', 'Saira Extra Condensed',serif;
+}
+
+
+
+
+h1{
+  font-size:6rem;
+  line-height:5.5rem
+}
+h2{
+  font-size:3.5rem
+}
+
+.list-social-icons a{
+  color:#495057
+}
+.list-social-icons a:hover{
+  color: var(--main-accent-color);
+}
+.list-social-icons a .fa-lg{
+  font-size:1.75rem
+}
+.list-icons{
+  font-size:3rem
+}
+.list-icons .list-inline-item i:hover{
+  color: var(--main-accent-color);
+}
+#sideNav .navbar-nav .nav-item .nav-link{
+  font-weight:600;
+  text-transform:uppercase
+}
+@media (min-width:992px){
+  #sideNav{
+      text-align:center;
+      position:fixed;
+      top:0;
+      left:0;
+      display:flex;
+      flex-direction:column;
+      width:12rem;
+      height:100vh
+  }
+
+  /* styles to center left navigation */
+   #sideNav .navbar-brand{
+      display:flex;
+      margin:auto auto 0;
+      padding:.5rem;
+      margin-top: 0;
+  } 
+
+  #sideNav .navbar-brand .img-profile{
+      border: 0.2rem solid rgb(70 137 99);
+  }
+  #sideNav .navbar-collapse{
+      display:flex;
+      align-items:flex-start;
+      flex-grow:0;
+      width:100%;
+      margin-bottom:auto
+  }
+  #sideNav .navbar-collapse .navbar-nav{
+      flex-direction:column;
+      width:100%
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item{
+      display:block
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+      display:block
+  }
+}
+section.resume-section{
+  border-bottom:1px solid #dee2e6;
+  padding-top:5rem!important;
+  padding-bottom:5rem!important
+}
+section.resume-section .resume-item .resume-date{
+  min-width:none
+}
+@media (min-width:768px){
+  section.resume-section{
+      min-height:100vh
+  }
+  section.resume-section .resume-item .resume-date{
+      min-width:18rem
+  }
+}
+@media (min-width:992px){
+  section.resume-section{
+      padding-top:3rem!important;
+      padding-bottom:3rem!important
+  }
+}
+.bg-primary{
+  background-color:var(--main-accent-color) !important;
+  background: linear-gradient(0deg, rgba(44,120,75,1) 0%, rgba(24,86,49,1) 100%);
+  box-shadow: inset -6px 0px 9px 0px #1e4a38;
+}
+.text-primary{
+  color:var(--main-accent-color) !important;;
+}
+
+
+.img{
+  width:75%;height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.img_small{
+  width:40%;height:auto;
+  padding: 2%;
+}
+
+.img_small_r{
+  width:40%;height:auto;
+  padding: 2%;
+  float: right;
+}
+
+.banner_img{
+  width:100%;height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+************ figures
+figure {
+    display: inline-block; 
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    *border: 1px dotted blue;
+    text-align: center;
+}
+
+.rounded-circle {
+  border-radius: 18%!important;
+}
