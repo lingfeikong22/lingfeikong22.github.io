@@ -28,7 +28,9 @@ h1 {
   letter-spacing: -2px;
 }
 
-
+p, li {
+  line-height: 140%;
+}
 
 .container-fluid a {
   text-decoration: underline;
